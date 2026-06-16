@@ -10,20 +10,20 @@
 # site domain, full URL to the production location of your collection
 url: https://www.ncpedia.org
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /sites/default/files/.../
+baseurl: /sites/default/files/america250/
 # location of code, the full url to your github repository
-source-code: https://github.com/SLNC-DIMP/...
+source-code: https://github.com/SLNC-DIMP/america250
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: ___ Resources
+title: America 250 Resources
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: From NCpedia and NC Digital Collections #Digital Collection Magic with Static Web Technologies
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: Resources about ____ focusing on _____.
+description: Resources about America 250 focusing on events and people in North Carolina.
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: north carolina;history;southeast
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
@@ -34,7 +34,7 @@ author: Andrea Smythe, State Library of North Carolina
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-metadata 
+metadata: a250-metadata 
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -50,10 +50,10 @@ metadata: demo-metadata
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: "Library of North Carolina"
-organization-link: https://library.nc.gov/
+organization-name: "North Carolina Digital Collections"
+organization-link: https://digital.ncdcr.gov/
 organization-logo-banner: https://static.quartexcollections.com/ncdcr/media-file/89e5af66-ebbd-428d-9dcb-dd8353724866-mastheadsingle.jpg
-organization-logo-nav: /assets/img/library_logo_sml.png
+organization-logo-nav: /assets/img/logo_ncdc_white.png
 
 ##########
 # ROBOTS EXCLUDE
