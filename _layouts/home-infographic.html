@@ -7,16 +7,16 @@ layout: page
   <div class="col-md-8">
 
     {% include index/description.html %}
-    {% include index/carousel.html title="Sample Items" %}
+    {% include index/carousel.html title="Sample Items" btn-color="main" %}
     
   </div>
   <div class="col-md-4">  
 
-    {% include index/time.html %}
+    {% include index/time.html btn-color="prime"%}
 
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
+    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="second" %}
 
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
+    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-prime" %}
     
     {% include index/objects.html %}
 
