@@ -25,7 +25,7 @@ body {
 }
 a {
     /* remove link underline */ 
-    text-decoration: none;
+    text-decoration: underline;
     @if $link-color != "" { 
         color: $link-color; 
         &:hover {
@@ -89,6 +89,7 @@ a {
 
 /* scroll to top */
 #scroll-to-top {
+    color: #CF3339;
     display: none; 
     position: fixed; 
     bottom: 20px; 

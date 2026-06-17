@@ -11,3 +11,10 @@ thead {
 .table>:not(:first-child) {
     border-top:0px;
 }
+.dropdown-item:hover {
+    color: #212529;
+    background-color: #97CAEB;
+}
+a:hover{
+    text-decoration: none;
+}
