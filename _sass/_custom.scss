@@ -18,3 +18,19 @@ thead {
 a:hover{
     text-decoration: none;
 }
+.page-item .page-link {
+    color: #001A70;
+}
+
+.page-item .page-link:hover{
+    color: white;
+    background-color: #A5272B;
+    border-color: #001A70;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: black;
+    background-color: #97CAEB;
+    border-color: #001A70;
+}
